@@ -8,7 +8,7 @@ metadata:
     app: jupyterhub
   name: jupyterhub
 spec:
-  replicas: 3
+  replicas: 1
   selector:
     app: jupyterhub
     deploymentconfig: jupyterhub
